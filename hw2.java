@@ -13,7 +13,7 @@
             System.out.println("This is B");
         }
     }
-class inheritance{
+class hw2{
     public static void main(String args[]){
         C obj1 = new C();
         obj1.display1();
