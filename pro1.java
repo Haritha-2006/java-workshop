@@ -13,7 +13,7 @@ class pro1{
         }
         System.out.println("Total of "+n+" subject marks is :"+sum);
         int avg = sum /n;
-        System.out.println("verage is :"+avg);
+        System.out.println("Average is :"+avg);
 
     }
 }
