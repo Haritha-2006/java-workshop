@@ -4,7 +4,7 @@ public class filehw {
         try {
             FileWriter author = new FileWriter("File2.txt");
             for(int i=1;i<=10;i++){
-                author.write(String.valueOf(i));
+                author.write(i+"\n");
             }
             author.close();
             System.out.println("written successfully");
