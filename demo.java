@@ -5,10 +5,10 @@ class employee{
     int age;
     public String getname(){
         System.out.println("Enter your name :");
-        name= S.nextLine();
+        String name= S.nextLine();
         return name;
     }
-    public void setname(String name){
+    public void setname(String Name){
         this.name=name;
     }
     public int getage(){
